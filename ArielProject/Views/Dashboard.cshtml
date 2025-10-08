@@ -3,5 +3,24 @@
 @{
 	Layout = "rootLayout.cshtml";
 }
+<style>
+	.mainContainer {
+		 display : flex;
+		 width: 100vw;
+		 height : auto;
+	}
+</style>
 
-<div>This is the dashboard page</div>
+<div>
+
+	@await Html.PartialAsync("Partials/Navbar.cshtml")
+
+	<div class="mainContainer">
+		@await Html.PartialAsync("Partials/LeftSidebar.cshtml")
+		@await Html.PartialAsync("Partials/RightSidebar.cshtml")
+		@await Html.PartialAsync("Partials/CenterMain.cshtml")
+	</div>
+
+
+
+</div>

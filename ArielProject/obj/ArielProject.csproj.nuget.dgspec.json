@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "V:\\CODING\\C_SHARP\\ArielProject\\ArielProject\\ArielProject.csproj": {}
+    "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\ArielProject.csproj": {}
   },
   "projects": {
-    "V:\\CODING\\C_SHARP\\ArielProject\\ArielProject\\ArielProject.csproj": {
+    "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\ArielProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "V:\\CODING\\C_SHARP\\ArielProject\\ArielProject\\ArielProject.csproj",
+        "projectUniqueName": "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\ArielProject.csproj",
         "projectName": "ArielProject",
-        "projectPath": "V:\\CODING\\C_SHARP\\ArielProject\\ArielProject\\ArielProject.csproj",
-        "packagesPath": "C:\\Users\\VARUN JOSHI\\.nuget\\packages\\",
-        "outputPath": "V:\\CODING\\C_SHARP\\ArielProject\\ArielProject\\obj\\",
+        "projectPath": "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\ArielProject.csproj",
+        "packagesPath": "C:\\Users\\Ariel-pc\\.nuget\\packages\\",
+        "outputPath": "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "V:\\Program Files (x86)\\Microsoft\\VisualStudio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\VARUN JOSHI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ariel-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,15 +47,59 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.Common": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.MSBuild": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
             "Microsoft.ICU.ICU4C.Runtime": {
               "target": "Package",
               "version": "[72.1.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             },
             "Umbraco.Cms": {
               "target": "Package",
@@ -78,7 +125,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

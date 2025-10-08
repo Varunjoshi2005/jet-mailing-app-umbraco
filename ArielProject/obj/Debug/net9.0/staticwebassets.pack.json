@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\wwwroot\\assets\\gmail.png",
+      "PackagePath": "staticwebassets\\assets\\gmail.png"
+    },
+    {
+      "Id": "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\wwwroot\\assets\\menuIcon.svg",
+      "PackagePath": "staticwebassets\\assets\\menuIcon.svg"
+    },
+    {
+      "Id": "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\wwwroot\\css\\global.css",
+      "PackagePath": "staticwebassets\\css\\global.css"
+    },
+    {
+      "Id": "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\wwwroot\\css\\leftsidebar.css",
+      "PackagePath": "staticwebassets\\css\\leftsidebar.css"
+    },
+    {
+      "Id": "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\wwwroot\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\navbar.css"
+    },
+    {
+      "Id": "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\VARUN PROJECTS\\Varun-Ariel-Projects\\jet-mailing-app-umbraco\\ArielProject\\wwwroot\\js\\mainScript.js",
+      "PackagePath": "staticwebassets\\js\\mainScript.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ArielProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ArielProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ArielProject.props",
+      "PackagePath": "build\\ArielProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ArielProject.props",
+      "PackagePath": "buildMultiTargeting\\ArielProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ArielProject.props",
+      "PackagePath": "buildTransitive\\ArielProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

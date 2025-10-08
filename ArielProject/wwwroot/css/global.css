@@ -1,6 +1,15 @@
-  body {
-      font-family: Arial, sans-serif;
-      background: #f0f2f5;
-      margin: 0;
-      padding: 0;
-  }
+﻿*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  background-color: #f8fafd;
+  height: 100vh;
+  overflow: hidden;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .dateContainer {
+        width: 120px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #myDate {
+        cursor: pointer;
+        width: 15px;
+        border: none;
+        outline: none;
+        padding: 4px;
+      }
+
+      #displayDate {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 100px;
+        padding: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dateContainer">
+      <div id="displayDate">dd/mm/yyyy</div>
+      <input type="date" id="myDate" />
+    </div>
+
+    <script>
+      const dateContainer = document.querySelector(".dateContainer");
+      const dateInput = document.getElementById("myDate");
+      const displayDate = document.getElementById("displayDate");
+      let date = "dd";
+      let month = "mm";
+      let year = "yyyy";
+
+      dateContainer.addEventListener("click", () => dateInput.click());
+
+      dateInput.addEventListener("change", (e) => {
+        console.log(e.target.value);
+        const fullDate = String(e.target.value);
+
+        date = `${fullDate[fullDate.length - 2]}${
+          fullDate[fullDate.length - 1]
+        }`;
+        month = `${fullDate.substring(5, 7)}`;
+        year = `${fullDate.substring(0, 4)}`;
+
+        const newDate = `${date}-${month}-${year}`;
+        displayDate.textContent = newDate;
+      });
+    </script>
+  </body>
+</html>

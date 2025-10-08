@@ -1,0 +1,67 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+  Layout = null;
+}
+
+<link rel="stylesheet" href="@Url.Content("~/css/leftsidebar.css")">
+
+<div class="sidebar">
+  <button class="compose">
+    <span>Compose</span>
+  </button>
+
+  <ul class="menu">
+
+    <li class="active">
+      <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/inbox_fill_baseline_p900_20dp.png" alt="">
+      <span>Inbox</span>
+    </li>
+
+    <li>
+      <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/star_baseline_nv700_20dp.png" alt="">
+      <span>Starred</span>
+    </li>
+
+    <li>
+      <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/schedule_baseline_nv700_20dp.png" alt="">
+
+      <span>Snoozed</span>
+    </li>
+
+    <li>
+      <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/send_baseline_nv700_20dp.png" alt="">
+
+      <span>Sent</span>
+    </li>
+
+    <li>
+      <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/draft_baseline_nv700_20dp.png" alt="">
+
+      <span>Drafts</span>
+      <small>1</small>
+    </li>
+
+    <li>
+      <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/shopping_bag_baseline_nv700_20dp.png" alt="">
+
+      <span>Purchases</span>
+    </li>
+
+
+    <li>
+      <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/expand_more_baseline_nv700_20dp.png" alt="">
+
+      <span>More</span>
+    </li>
+  </ul>
+
+  <div class="labels">
+    <span>Labels</span>
+    <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/add_large_baseline_nv700_20dp.png" alt="">
+  </div>
+
+  <div class="upgrade">
+    ⓘ Upgrade →
+  </div>
+</div>
