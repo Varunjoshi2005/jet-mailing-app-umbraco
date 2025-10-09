@@ -1,10 +1,11 @@
 ﻿using ArielProject.Data;
+using ArielProject.Interfaces.IRepositories;
 using ArielProject.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ArielProject.Repositories
 {
-    public class UserRepository(AppDbContext appDbContext)
+    public class UserRepository(AppDbContext appDbContext) : IUserRepository
     {
 
         public readonly AppDbContext _context = appDbContext;

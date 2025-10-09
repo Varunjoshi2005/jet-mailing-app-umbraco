@@ -1,4 +1,8 @@
 using ArielProject.Data;
+using ArielProject.Interfaces.IRepositories;
+using ArielProject.Interfaces.IServices;
+using ArielProject.Repositories;
+using ArielProject.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +21,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     ));
 
 builder.Services.AddScoped<PasswordHasher<string>>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IAccountService, AccountService>();
 
 WebApplication app = builder.Build();
 

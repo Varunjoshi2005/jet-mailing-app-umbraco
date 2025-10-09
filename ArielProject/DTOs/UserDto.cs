@@ -17,11 +17,13 @@ namespace ArielProject.DTOs
 
     public class UserLoginDto
     {
-        [JsonProperty("username")]
-        public required string Username;
+
 
         [JsonProperty("email")]
         public required string Email;
+
+        [JsonProperty("password")]
+        public required string Password;
 
     }
 }

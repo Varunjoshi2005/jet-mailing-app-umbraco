@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArielProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d6582c96b2bc461b038536517979293ed47b2c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac8a5b3b10036e70024a05fc4cdae7d028888c0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArielProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArielProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
